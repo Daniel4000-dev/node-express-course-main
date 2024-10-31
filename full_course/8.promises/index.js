@@ -17,4 +17,6 @@ function divideFn(num1, num2) {
     })
 }
 
-divideFn(10, 5).then(result => console.log(result))
+divideFn(10, 5)
+.then(result => console.log(result, 'res'))
+.catch(error => confirm.log(error, 'err'))
