@@ -51,7 +51,7 @@ app.get('/products/:id', (req, res) => {
     } else {
         res.status(404).send("product is not found!")
     }
-})
+});
 
 const port = 3000;
 app.listen(port, () => {
